@@ -1,3 +1,5 @@
+package IntroductionToThreads;
+
 class MyRunnable implements Runnable {
     @Override
     public void run() {

@@ -1,12 +1,12 @@
 package Exercise1;
 
-public class Task2 {
+public class Task3 {
     public static void main (String [] args) {
 
-        for (int i = 0; i < 5; i++) {
-            sleep(2000); // Pause (sleep) 2 seconds
-            System.out.println(i); // after 2 seconds it prints the numbers 1 - 5
-            sleep(2000); // Pause (sleep) 2 seconds again
+        for (int i = 10; i <= 20; i++) {
+            sleep(3000); // Pause (sleep) 3 seconds
+            System.out.println(i); // after 3 seconds it prints the numbers more than 10
+            sleep(3000); // Pause (sleep) 2 seconds again
         }
 
     }
@@ -22,6 +22,5 @@ public class Task2 {
             System.out.println(e);
         }
     }
-
 
 }

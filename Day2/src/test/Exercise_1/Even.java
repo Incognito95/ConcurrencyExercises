@@ -1,9 +1,9 @@
 import org.junit.jupiter.api.Test;
 
-public class RaceCondition implements Runnable {
+public class Even implements Runnable {
     private int n = 0;
 
-    @Test
+
     public int next() {
         synchronized (this) {
             n++;
